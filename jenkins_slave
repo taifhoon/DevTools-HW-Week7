@@ -7,6 +7,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
+                sh 'python --version'
                 sh 'python myscript.py ${params.NAME} --age {$params.Ages}'
             }
         }
