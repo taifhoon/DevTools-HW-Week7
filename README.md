@@ -1,1 +1,4 @@
-# DevTools-HW-Week7
+```
+python myscript.py Alice --age 30
+
+```
